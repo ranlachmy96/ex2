@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
+    display: block;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper-for-header {
+    width: 235px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 60px;
+}
+
+#logo span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    padding-left: 38px;
+    height: 60px;
+}
+
+#my-photo-and-sentance-section {
+    width: 100%;
+    background-color: #F9BDBD;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+}
+
+#wrapper-for-photo-and-sentance {
+    width: 1400px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+#wrapper-for-photo-and-sentance section {
+    background-color: #F7DEA6;
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+    border-radius: 0px 100px 0px 100px;
+}
+
+#wrapper-for-photo-and-sentance img {
+    float: left;
+    position: relative;
+    z-index: 1;
+    padding-top: 165px;
+    padding-left: 76px;
+}
+
+#wrapper-for-photo-and-sentance #first-line {
+    padding-top: 83px;
+    padding-left: 40px;
+    font-family: 'Nunito';
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+#wrapper-for-photo-and-sentance #second-line {
+    padding-top: 16px;
+    padding-left: 40px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+#wrapper-for-About-until-your-choise-section {
+    width: 1400px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+#about-me-section h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 24px;
+}
+
+#about-me-section p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+    padding-top: 24px;
+}
+
+#Exercises-h2 h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 83px;
+}
+
+.Exercises-section {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.Exercises-section section:not(:last-child) {
+    margin-right: 24px;
+}
+
+.pokemon-picture {
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.name-of-ex {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
+    color: #000000;
+}
+
+.Exercises-section a {
+    display: block;
+    background-color: #ffffff;
+    color: #171F46;
+    width: 119.58px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 24px;
+    margin-top: 32px;
+    font-family: 'Rubik';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.Exercises-section #EX1 a:hover {
+    color: #FDEDE5;
+    background-color: #171F46;
+}
+
+#EX1 {
+    width: 200px;
+    height: 264px;
+    left: 40px;
+    top: 1307px;
+    background-color: #FDEDE5;
+    border-radius: 30px;
+}
+
+.Exercises-section #EX2 a:hover {
+    color: #EBF1FF;
+    background-color: #171F46;
+}
+
+#EX2 {
+    width: 200px;
+    height: 264px;
+    left: 264px;
+    top: 1307px;
+    background-color: #EBF1FF;
+    border-radius: 30px;
+}
+
+.Exercises-section #EX3 a:hover {
+    color: #EBFFEC;
+    background-color: #171F46;
+}
+
+#EX3 {
+    width: 200px;
+    height: 264px;
+    left: 488px;
+    top: 1307px;
+    background-color: #EBFFEC;
+    border-radius: 30px;
+}
+
+.Exercises-section #EX4 a:hover {
+    color: #FFEBFC;
+    background-color: #171F46;
+}
+
+#EX4 {
+    width: 200px;
+    height: 264px;
+    left: 712px;
+    top: 1307px;
+    background-color: #FFEBFC;
+    border-radius: 30px;
+}
+
+.Exercises-section #EX5 a:hover {
+    color: #FFFEEB;
+    background-color: #171F46;
+}
+
+#EX5 {
+    width: 200px;
+    height: 264px;
+    left: 936px;
+    top: 1307px;
+    background-color: #FFFEEB;
+    border-radius: 30px;
+}
+
+#programming-languages-section h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 40px;
+}
+
+#programming-languages-section ul {
+    padding-left: 17px;
+    padding-top: 24px;
+}
+
+#programming-languages-section ul li {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+}
+
+#Your-choice-section h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    color: #000000;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 40px;
+}
+
+#top-tier-video-games {
+    width: 100%;
+    background-color: #F9BDBD;
+    width: 1000px;
+    height: 508px;
+    left: 40px;
+    top: 1920px;
+    margin-top: 24px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+#top-tier-video-games img:hover {
+    transform: scale(1.50)
+}
+
+#footer-wrapper {
+    width: 235px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #F0F0F0;
+}
+
+#footer-section h2 {
+    height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+#footer-section a {
+    display: block;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+
+#footer-section a+a {
+    padding-top: 16px;
+}
+
+#footer-section span {
+    display: block;
+    height: 17.65px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8D8D;
+    padding-top: 70px;
+    padding-bottom: 51.35px;
+}
